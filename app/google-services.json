@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "855498373842",
+    "firebase_url": "https://nelayan-1809f.firebaseio.com",
+    "project_id": "nelayan-1809f",
+    "storage_bucket": "nelayan-1809f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855498373842:android:cb23d9b68c836fb9",
+        "android_client_info": {
+          "package_name": "jaballogian.nelayan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855498373842-bhmp77meqtob1rm6ngulk0kc8919ca9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jaballogian.nelayan",
+            "certificate_hash": "f22decb99cdf8b99ede489e92bf756a7bd613b4f"
+          }
+        },
+        {
+          "client_id": "855498373842-2lsc4l4c6ln5m6g6kftu78l9rs8e410d.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "855498373842-2lsc4l4c6ln5m6g6kftu78l9rs8e410d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcXOe1o22bS9bvYnbbSIj-lRL4ibmUb6Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855498373842-2lsc4l4c6ln5m6g6kftu78l9rs8e410d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

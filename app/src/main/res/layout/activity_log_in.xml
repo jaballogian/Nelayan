@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jaballogian.nelayan.LogInActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/sailboat"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email/Username/Nomor HP"
+                android:id="@+id/masukanUsernameEditTextLogInActivity"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:id="@+id/masukanPasswordEditTextLogInActivity"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Masuk"
+                android:textAllCaps="false"
+                android:id="@+id/masukButtonLogInActivity" />
+
+            <!--
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Masuk dengan Gmail"
+                android:textAllCaps="false"
+                android:id="@+id/masukDenganGmailButtonLogInActivity"/>
+                -->
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Belum punya akun? Daftar di sini"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:id="@+id/belumPunyaAkunTextViewLogInActivity"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jaballogian.nelayan.RegisterActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:text="Daftarkan Diri"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/user"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/profilPictureImageViewRegisterActivity"
+                    app:civ_border_width="5dp"
+                    app:civ_border_color="@color/colorPrimaryDark"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/profilPictureImageViewRegisterActivity"
+                    android:text="Pilih Foto"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/pilihFotoTextViewRegisterActivity"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Nama Anda"
+                    android:inputType="textPersonName"
+                    android:id="@+id/masukanNamaEditTextRegisterActivity"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Nama Kapal"
+                    android:inputType="textPersonName"
+                    android:id="@+id/masukanNamaKapalEditTextRegisterActivity"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Nomor HP"
+                    android:inputType="number"
+                    android:id="@+id/masukanNomorHPEditTextRegisterActivity"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/masukanEmailEditTextRegisterActivity"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Username"
+                    android:id="@+id/masukanUsernameEditTextRegisterActivity"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:id="@+id/masukanPasswordEditTextRegisterActivity"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Konfirmasi Password"
+                    android:inputType="textPassword"
+                    android:id="@+id/masukanKonfirmasiPasswordEditTextRegisterActivity"/>
+            </LinearLayout>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Saya menyetujui semua peraturan yang ada pada aplikasi ini"
+                android:layout_margin="20dp"
+                android:id="@+id/persetujuanCheckBoxRegisterActivity"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Daftarkan Diri"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:id="@+id/daftarkanDiriButtonRegisterActivity" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

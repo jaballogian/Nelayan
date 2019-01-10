@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="defaultRed">#db3236</color>
+    <color name="defaultGreen">#3cba54</color>
+    <color name="defaultYellow">#f4c20d</color>
+    <color name="defaultBlue">#4885ed</color>
+    <color name="defaultTextColor">#000000</color>
+
+    <color name="blueGrey100">#CFD8DC</color>
+
+    <color name="colorPrimary">#26c6da</color>
+    <color name="colorAccent">#00bcd4</color>
+    <color name="colorPrimaryDark">#4dd0e1</color>
+</resources>
